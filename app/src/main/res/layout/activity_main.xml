@@ -6,11 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
     <Button
         android:id="@+id/address"
         android:layout_width="191dp"
         android:layout_height="0dp"
-        android:layout_marginTop="202dp"
+        android:layout_marginTop="500dp"
         android:layout_marginBottom="10dp"
         android:text="Alamat"
         app:layout_constraintBottom_toTopOf="@+id/telp"
@@ -33,11 +34,58 @@
         android:id="@+id/email"
         android:layout_width="191dp"
         android:layout_height="0dp"
-        android:layout_marginBottom="242dp"
+        android:layout_marginBottom="40dp"
         android:text="Email"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/telp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Nama  : Satrio Arda Alfiansyah"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="18dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="NIM   : A11.2020.12739"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="18dp" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="59dp"
+        android:src="@drawable/fotoku"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="254dp"
+        android:layout_marginBottom="410dp"
+        android:text="Hobi saya adalah Tidur"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="259dp"
+        android:text="Halo perkenalkan saya Satrio, dan saya adalah Mahasiswa di UDINUS"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="14dp" />
 
 </android.support.constraint.ConstraintLayout>
